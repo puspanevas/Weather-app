@@ -1,0 +1,76 @@
+$colors: (
+    primary: #74B9FF,
+    accent: #EAF0F1,
+    //color1: #FF3031,
+    //color2: #777E8B,
+    //color3: #26ae60,
+    //color4: #A3CB37,
+    //color5: #000,
+    //color6: #333945,
+    //color7: #EA7773,
+    color8: #F5BCBA,
+    //color9: #01CBC6,
+    color10: #0A3D62,
+);
+
+// * {
+//     margin: 0;
+//     padding: 0;
+// }
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?weather');
+
+}
+
+.box{
+    background: #000000d0;
+    color: white;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    padding: 2em;
+    margin: 1em;
+}
+
+.flex,
+.humidity {
+    text-transform: capitalize;
+}
+
+.temp {
+    font-size: 3em;
+}
+
+.searchbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar {
+    border-radius: 5px;
+    padding: 0.3em;
+    background: #000000d0;
+}
+
+button {
+    border-radius: 5px;
+    padding: 0.4em;
+    background: #000000d0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
